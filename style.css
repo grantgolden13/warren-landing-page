@@ -21,6 +21,8 @@ body {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    background-image: url(texture.png);
+    background-repeat: repeat;
 }
 
 header, footer {
@@ -30,7 +32,7 @@ header, footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 15px;
+    padding: 16px;
     gap: 150px;
     -webkit-box-shadow: 0px 3px 3px rgba(0,0,0,0.12);
             box-shadow: 0px 3px 3px rgba(0,0,0,0.12);
@@ -96,16 +98,17 @@ main {
 input {
     border: 2px solid black;
     font-weight: normal;
-    min-width: 24vw;
+    min-width: 480px;
     border-radius: 15px;
     min-height: 32px;
     padding: 6px;
+    background-color: #f5f5f5;
 }
 
 #submit {
     background-color: #cd3743;
     padding: 6px;
-    min-width: 7vw;
+    min-width: 120px;
     color: white;
     border: 2px solid black;
 }
