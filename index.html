@@ -6,47 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Warren Insurance Agency</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ba774010ff.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <p>"We are black belts in insurance!"</p>
+        <p class="italic">"We are black belts in insurance!"</p>
         <img src="WIA logo.png">
-        <p>Call today for a free quote! (714) 831-2823</p>
+        <p class="italic">Call today for a free quote! (714) 831-2823</p>
     </header>
 
     <main>
         <section id="pic">
-            <img src="headshot.jpg">
+            <div class="headshot">
+                <img src="headshot.jpg">
+                <caption>Daniel Warren, Owner</caption>
+                <p><i class="fa-solid fa-star fa-2xs" style="color: #dbd404;"></i><i class="fa-solid fa-star fa-2xs" style="color: #dbd404;"></i><i class="fa-solid fa-star fa-2xs" style="color: #dbd404;"></i><i class="fa-solid fa-star fa-2xs" style="color: #dbd404;"></i><i class="fa-solid fa-star fa-2xs" style="color: #dbd404;"></i><a href="https://www.google.com/search?q=daniel+warren+insurance&rlz=1C5CHFA_enUS944US956&oq=da&aqs=chrome.0.69i59j69i57j0i67i650j69i60j69i61j69i60l3.5698j0j7&sourceid=chrome&ie=UTF-8#" target="_blank">100% 5 Star Reviews!</a></p>
+            </div>
+            
             <div class="paras">
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+                <h1>Affordable business insurance plans customized for you by trusted experts.</h1>
+                <p>Is your business covered correctly? Are you stuck with an expensive insurance policy? <br> Protect your small business today with a customized California business insurance policy. Get a competitive free quote today, with no hassle!</p>
+                <p>Warren Insurance Agency is family owned and operated team of experts with decades of knowledge and experience to help you better understand your coverage options. Now offering free consultations to all small business owners in California. Call today to get a competitive free quote -- switch and you could save thousands!</p>
             </div>
             
         </section>
 
         <section id="para2">
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, </p>
-            
+            <p>With dozens of 5-star reviews, Warren Insurance Agency is your trusted business insurance partner in the state of California. Operating in Fullerton, CA, they offer business insurance policies to small businesses owners across the state. They've helped countless business owners find customized coverage with insurance plans, like BOP and Worker's Compensation, and save thousands of dollars in the process!</p>
         </section>
         
         <section id="pics">
+
+            <img src="office.jpg">
+            <img src="workers-comp.jpg">
+
 
         </section>
 
         <section id="formsection">
 
             <h1>Get your free Business Insurance quote today!</h1>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, </p>
+            <p>Fill out the form below, or call today for your free quote! Warren Insurance Agency only needs a few pieces of information to analyze the best plans currently available to you. We'll find a plan that only includes the policies you need. We'll get you covered and save you money!</p>
 
-            <form name="contact-form" method="POST" netlify>
-                <label for="name">Name<input type="text" name="name" id="name" maxlength="40" required></label>
-                <label for="email">Email<input type="email" name="email" id="email" maxlength="60"></label>
-                <label for="phone">Phone<input type="tel" name="phone" id="phone" required></label>
-                <label for="interest">Interested In<input type="text" name="interest" id="interest" maxlength="100" required></label>
-                <label for="comments">Comments<input type="text" name="comments" id="comments" maxlength="200"></label>
+            <form class="contact-form" name="contact-form" method="POST" netlify>
+                <label for="name">Name <br><input type="text" name="name" id="name" maxlength="40" required></label>
+                <label for="email">Email <br><input type="email" name="email" id="email" maxlength="60"></label>
+                <label for="phone">Phone <br><input type="tel" name="phone" id="phone" required></label>
+                <label for="interest">Interested In <br><input type="text" name="interest" id="interest" maxlength="100" required></label>
+                <label for="comments">Comments <br><input type="text" name="comments" id="comments" maxlength="200"></label>
+                <input id="submit" type="submit" value="Get Quote!" style="max-width: 2vw;">
             </form>
 
-            <p>We will never share your info. Check out our privacy policy for more.</p>
+            <p class="privacy-para">We will never share your info. Check out our privacy policy for more.</p>
 
         </section>
         
