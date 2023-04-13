@@ -69,11 +69,20 @@ main {
     align-items: center;
     text-align: center;
     gap: 40px;
+    padding: 0px 20px 0px 20px;
+}
+
+.paras p {
+    margin: 0px 20px;
 }
 
 #para2 {
     text-align: center;
     margin: 20px 100px 50px 100px;
+}
+
+#para2 p {
+    margin: 0px 12px;
 }
 
 .contact-form {
