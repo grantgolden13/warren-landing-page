@@ -111,6 +111,7 @@ input {
     min-width: 120px;
     color: white;
     border: 2px solid black;
+    margin-top: 12px;
 }
 
 #submit:hover {
