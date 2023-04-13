@@ -39,11 +39,12 @@ header, footer {
 }
 
 header {
-    border-radius: 0px 0px 8px 8px;
+    border-radius: 3px 3px 10px 10px;
 }
 
 footer {
-    border-radius: 8px 8px 0px 0px;
+    border-radius: 10px 10px 3px 3px;
+    padding: 15px;
 }
 
 footer section {
