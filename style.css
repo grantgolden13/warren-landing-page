@@ -10,6 +10,7 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     max-width: 1280px;
+    list-style-type: none;
 }
 
 html {
@@ -138,8 +139,36 @@ section img {
 
 a {
     text-decoration: none;
+    color: #0c99bf;
 }
 
 #formsection p {
     margin: 0px 80px;
 }
+
+.lh {
+    line-height: 30px;
+}
+
+#privacy {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#privacy * {
+    margin: 8px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#terms * {
+    text-align: center;
+    margin: 8px;
+}
+
