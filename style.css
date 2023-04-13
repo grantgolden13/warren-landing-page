@@ -181,6 +181,7 @@ a {
 
 #privacy * {
     margin: 8px;
+    max-width: 720px;
 }
 
 h2 {
@@ -190,9 +191,14 @@ h2 {
 
 #terms * {
     text-align: center;
-    margin: 8px;
+    margin: 12px;
+    max-width: 720px;
 }
 
 .bold {
     font-weight: bold;
+}
+
+#privacy h2, #privacy h4 {
+    margin: 24px;
 }
