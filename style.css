@@ -93,6 +93,10 @@ input {
     border: 2px solid black;
 }
 
+#submit:hover {
+    cursor: pointer;
+}
+
 .paras, #para2, #formsection p {
     font-size: 20px;
 }
@@ -172,3 +176,6 @@ h2 {
     margin: 8px;
 }
 
+.bold {
+    font-weight: bold;
+}
