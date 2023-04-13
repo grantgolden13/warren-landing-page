@@ -20,7 +20,7 @@ body {
     align-items: center;
 }
 
-header {
+header, footer {
     width: 100%;
     background-color: #18a5d6;
     opacity: 80%;
@@ -29,4 +29,36 @@ header {
     justify-content: center;
     padding: 10px;
     gap: 150px;
+}
+
+footer section {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 2px;
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#pic {
+    display: flex;
+    gap: 40px;
+    margin: 40px;
+}
+
+.paras, #formsection {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+
+#para2 {
+    text-align: center;
+    margin: 40px;
 }
