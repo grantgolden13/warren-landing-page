@@ -75,6 +75,10 @@ main {
     padding: 0px 20px 0px 20px;
 }
 
+#width {
+    max-width: 800px;
+}
+
 .paras p {
     margin: 0px 20px;
 }
