@@ -34,8 +34,8 @@ header, footer {
     justify-content: center;
     padding: 13px;
     gap: 150px;
-    -webkit-box-shadow: 0px 3px 3px rgba(0,0,0,0.12);
-            box-shadow: 0px 3px 3px rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0px 3px 3px rgba(0,0,0,0.24);
+            box-shadow: 0px 3px 3px rgba(0,0,0,0.24);
 }
 
 header {
