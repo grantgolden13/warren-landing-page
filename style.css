@@ -215,3 +215,41 @@ h2 {
 #headshot {
     margin-bottom: 4px;
 }
+
+@media screen and (max-width: 1050px) {
+
+    body, main, #pic, #pics, #formsection, .contact-form {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        margin: auto;
+        max-width: 360px;
+    }
+
+    header, footer {
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 20px;
+    }
+
+    #pic {
+        margin-top: 18px;
+    }
+
+    .paras, #para2, form, #formsection h1, #formsection p {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #pics {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    form *, input {
+        min-width: 300px;
+        width: 300px;
+        max-width: 320px;
+    }
+
+  }
