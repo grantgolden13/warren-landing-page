@@ -253,7 +253,7 @@ h2 {
     }
 
     .phone {
-        color: inherit;
+        color: black !important;
         text-decoration: none;
     }
 
