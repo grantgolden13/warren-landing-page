@@ -252,7 +252,7 @@ h2 {
         max-width: 320px;
     }
 
-    .phone {
+    a[href^="tel"] {
         color: black !important;
         text-decoration: none;
     }
