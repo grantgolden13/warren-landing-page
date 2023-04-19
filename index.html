@@ -73,7 +73,7 @@
             <form class="contact-form" name="contact-form" method="POST" netlify>
                 <label class="italic" for="name">Name: <br><br><input type="text" name="name" id="name" maxlength="40" required></label>
                 <label class="italic" for="email">Email: <br><br><input type="email" name="email" id="email" maxlength="60"></label>
-                <label class="italic" for="phone">Phone: <br><br><input type="tel" name="phone" id="phone" required></label>
+                <label class="italic" for="phone">Phone: <br><br><input type="tel" name="phone" id="phone" minlength="10" maxlength="10" required></label>
                 <label class="italic" for="interest">Interested In: <br><br><input type="text" name="interest" id="interest" maxlength="100"></label>
                 <label class="italic" for="comments">Comments: <br><br><input type="text" name="comments" id="comments" maxlength="200"></label>
                 <input id="submit" type="submit" value="Get Quote!" style="max-width: 2vw;">
