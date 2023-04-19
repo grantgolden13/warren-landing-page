@@ -27,7 +27,7 @@ body {
 
 header, footer {
     width: 100%;
-    background-color: #0c99bf;
+    background-color: #05a5e6;
     opacity: 80%;
     display: flex;
     align-items: center;
@@ -72,7 +72,7 @@ main {
     align-items: center;
     text-align: center;
     gap: 40px;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 20px 30px 20px;
 }
 
 #width {
@@ -81,6 +81,7 @@ main {
 
 .paras p {
     margin: 0px 20px;
+    font-size: 24px;
 }
 
 #para2 {
@@ -90,6 +91,7 @@ main {
 
 #para2 p {
     margin: 0px 12px;
+    font-size: 24px;
 }
 
 .contact-form {
@@ -124,14 +126,15 @@ input {
 }
 
 .paras, #para2, #formsection p {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 36px;
     font-family: acumin-pro-semi-condensed, sans-serif;
     font-style: italic;
               font-weight: 500;
+    line-height: 48px;
 }
 
 #pics {
@@ -155,7 +158,7 @@ caption {
 .italic {
     font-style: italic;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 #formsection .privacy-para {
@@ -169,7 +172,7 @@ section img {
 
 a {
     text-decoration: none;
-    color: #0c99bf;
+    color: #05a5e6;
 }
 
 #formsection p {
@@ -177,7 +180,7 @@ a {
 }
 
 .lh {
-    line-height: 30px;
+    line-height: 42px;
 }
 
 #privacy {
@@ -194,8 +197,9 @@ a {
 }
 
 h2 {
-    font-size: 32px;
-    font-weight: bold;
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
 }
 
 #terms * {
@@ -214,6 +218,12 @@ h2 {
 
 #headshot {
     margin-bottom: 4px;
+}
+
+a[href^="tel"] {
+    color: black !important;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 1020px) {
