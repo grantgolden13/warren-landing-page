@@ -223,7 +223,7 @@ h2 {
         flex-flow: column nowrap;
         align-items: center;
         margin: auto;
-        max-width: 360px;
+        max-width: 100%;
     }
 
     header, footer {
