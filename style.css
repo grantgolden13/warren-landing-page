@@ -239,7 +239,11 @@ a[href^="tel"] {
     header, footer {
         display: flex;
         flex-flow: column nowrap;
-        gap: 20px;
+        gap: 13px;
+    }
+
+    .hidden {
+        display: none;
     }
 
     #pic {
