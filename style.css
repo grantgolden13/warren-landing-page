@@ -239,7 +239,7 @@ a[href^="tel"] {
     header, footer {
         display: flex;
         flex-flow: column nowrap;
-        gap: 13px;
+        gap: 8px;
     }
 
     .hidden {
@@ -247,16 +247,56 @@ a[href^="tel"] {
     }
 
     #pic {
-        margin-top: 18px;
+        margin-top: 12px;
+        padding: 12px;
         display: flex;
+        flex-flow: row nowrap;
+        width: 100%;
+        gap: 10px;
     }
 
     .headshot {
         max-width: 180px;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
     }
 
     caption {
         text-align: center;
+    }
+
+    .paras p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .paras {
+        gap: 18px;
+    }
+
+    h1 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .h2section {
+        margin-top: 16px;
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 10px;
+        padding: 8px;
+    }
+
+    .h2section p {
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        margin: 8px;
     }
 
     .paras, #para2, form, #formsection h1, #formsection p {
