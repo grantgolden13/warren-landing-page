@@ -248,6 +248,15 @@ a[href^="tel"] {
 
     #pic {
         margin-top: 18px;
+        display: flex;
+    }
+
+    .headshot {
+        max-width: 180px;
+    }
+
+    caption {
+        text-align: center;
     }
 
     .paras, #para2, form, #formsection h1, #formsection p {
