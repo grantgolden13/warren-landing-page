@@ -11,6 +11,7 @@
             box-sizing: border-box;
     max-width: 1280px;
     list-style-type: none;
+    box-sizing: border-box;
 }
 
 html {
@@ -236,6 +237,10 @@ a[href^="tel"] {
         max-width: 100%;
     }
 
+    main {
+        margin: 0px 4px 0px 4px;
+    }
+
     header, footer {
         display: flex;
         flex-flow: column nowrap;
@@ -260,6 +265,13 @@ a[href^="tel"] {
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
+        gap: 8px;
+    }
+
+    #headshot {
+        border-radius: 4px;
+        -webkit-box-shadow: 0px 3px 3px rgba(0,0,0,0.48);
+            box-shadow: 0px 3px 3px rgba(0,0,0,0.48);
     }
 
     caption {
@@ -296,7 +308,7 @@ a[href^="tel"] {
         font-size: 20px;
         line-height: 30px;
         text-align: center;
-        margin: 8px;
+        margin: 12px;
     }
 
     .paras, #para2, form, #formsection h1, #formsection p {
@@ -309,10 +321,22 @@ a[href^="tel"] {
         margin-bottom: 20px;
     }
 
+    label {
+        font-size: 18px !important;
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 8px;
+    }
+
     form *, input {
         min-width: 300px;
         width: 300px;
         max-width: 320px;
+        font-size: 16px;
+    }
+
+    #formsection {
+        padding: 0px 20px;
     }
 
     a[href^="tel"] {
@@ -322,6 +346,28 @@ a[href^="tel"] {
     }
 
     #para2 {
+        margin-top: 24px;
+    }
+
+    #para2 p, .human p {
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .human {
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 24px;
+        padding: 0px 12px;
+        margin: 12px;
+    }
+
+    #pics {
+        gap: 20px;
+    }
+
+    footer {
         margin-top: 24px;
     }
 
