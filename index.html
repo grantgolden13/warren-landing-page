@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <script src="https://www.google.com/recaptcha/enterprise.js?render=6LdK1rIlAAAAAP5A8vgjJRKtRrjfbKqBx6w6aRLG"></script>
-<script>
-grecaptcha.enterprise.ready(function() {
-    grecaptcha.enterprise.execute('6LdK1rIlAAAAAP5A8vgjJRKtRrjfbKqBx6w6aRLG', {action: 'login'}).then(function(token) {
+    <script>
+    grecaptcha.enterprise.ready(function() {
+        grecaptcha.enterprise.execute('6LdK1rIlAAAAAP5A8vgjJRKtRrjfbKqBx6w6aRLG', {action: 'login'}).then(function(token) {
 
-    });});
-</script>
+        });});
+    </script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11144223974"></script>
     <script>
@@ -61,7 +61,6 @@ grecaptcha.enterprise.ready(function() {
               <label class="italic" for="comments">Comments: <input type="text" name="comments" id="comments" maxlength="200"></label>
               <input class="button" id="submit" type="submit" value="Get Quote!" style="max-width: 2vw;">
           </form>
-          
           <p class="privacy-para">We will never share your info. <br> Check out our <a href="privacy.html" target="_blank">privacy policy</a> for more.</p>
         </section>
         <section class="human">
@@ -134,7 +133,7 @@ grecaptcha.enterprise.ready(function() {
             </div>
           </section>
         </section>
-        <h3 style="font-weight: normal; font-size: 20px;">Get your free quote today!</h3>
+        <h3 style="font-style: italic; font-size: 28px; margin-bottom: 12px;">Get your free quote today!</h3>
         <section id="formsection2">
           <form class="contact-form" name="contact-form" method="POST" netlify>
               <label class="italic" for="name">Name:<input type="text" name="name" id="name2" maxlength="40" required></label>

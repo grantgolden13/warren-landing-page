@@ -60,12 +60,15 @@ footer section {
 main {
     display: flex;
     flex-flow: column nowrap;
+    align-items: center;
 }
 
 #pic {
     display: flex;
-    gap: 40px;
-    margin: 40px;
+    gap: 30px;
+    margin: 40px 100px 10px 100px;
+    justify-content: center;
+    align-items: center;
 }
 
 .paras, #formsection, #formsection2 {
@@ -76,6 +79,25 @@ main {
     text-align: center;
     gap: 40px;
     padding: 0px 20px 30px 20px;
+    margin: 20px
+}
+
+.h2section {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.h2section h2 {
+    font-size: 32px;
+}
+
+.h2section p {
+    font-size: 24px;
+    margin: 0px 100px;
+    text-align: center;
 }
 
 #width {
@@ -97,8 +119,16 @@ main {
     font-size: 24px;
 }
 
+#para2 h2 {
+    margin-bottom: 24px;
+}
+
+#para2 h3 {
+    font-size: 24px;
+}
+
 .contact-form {
-    gap: 20px;
+    gap: 16px;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -113,6 +143,12 @@ input {
     min-height: 32px;
     padding: 6px;
     background-color: #f5f5f5;
+    margin-top: 8px;
+}
+
+label {
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 #submit, #submit2 {
@@ -141,8 +177,10 @@ h1 {
 
 #pics {
     display: flex;
-    justify-content: center;
-    gap: 100px;
+    flex-flow: column nowrap;
+    align-items: center;
+    max-width: 600px;
+    gap: 50px;
     margin: 10px 40px 40px 40px;
 }
 
@@ -160,11 +198,11 @@ caption {
 .italic {
     font-style: italic;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 #formsection .privacy-para, #formsection2 .privacy-para {
-    margin-bottom: 35px;
+    margin-bottom: 15px;
 }
 
 section img {
@@ -226,6 +264,30 @@ a[href^="tel"] {
     color: black !important;
     font-weight: bold;
     text-decoration: none;
+}
+
+.human p {
+    font-size: 24px;
+    margin: 20px 100px;
+    text-align: center;
+    padding: 24px;
+}
+
+li {
+    font-size: 20px;
+    line-height: 30px;
+    list-style-type: disc;
+}
+
+ul {
+    margin: 16px 64px;
+    padding: 0px 40px;
+}
+
+.offer h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 48px;
 }
 
 /* testimonials section */
@@ -427,7 +489,7 @@ a[href^="tel"] {
     #pics {
         margin-top: 20px;
         margin-bottom: 20px;
-        gap: 20px;
+        gap: 40px;
     }
 
     label {
@@ -466,6 +528,7 @@ a[href^="tel"] {
         font-size: 20px;
         line-height: 30px;
         text-align: center;
+        margin: 0px 20px;
     }
 
     .human {
