@@ -8,6 +8,8 @@
     <title>Warren Insurance Agency</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <script src="script.js"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11144223974"></script>
     <script>
@@ -23,7 +25,7 @@
       });
     </script>
 </head>
-<body>
+<body onload="generate()">
     <header>
         <p style="text-align: center" class="hidden bold">"We are black belts in insurance!"<br> CA License #: 4059459</p>
         <a aria-label="Load homepage of Warren Insurance Agency" href="https://www.dwarreninsurance.com"><img alt="Our proud Warren Insurance Agency logo." src="wia-logo.png"></a>
@@ -52,8 +54,21 @@
               <label class="italic" for="phone">Phone: <input type="tel" name="phone" id="phone" minlength="10" maxlength="10" required></label>
               <label class="italic" for="interest">Interested In: <input type="text" name="interest" id="interest" maxlength="100"></label>
               <label class="italic" for="comments">Comments: <input type="text" name="comments" id="comments" maxlength="200"></label>
+              <section class="captcha">
+                <div id="user-input" class="inline">
+                  <input type="text" id="submit" placeholder="Captcha code"/>
+                </div>
+                <div class="inline" onclick="generate()">
+                  <i class="fas fa-sync"></i>
+                </div>
+                <div id="image" class="inline" selectable="False">
+                </div>
+                <input type="submit" id="btn" onclick="printmsg()"/>
+                <p id="key"></p>
+              </section>
               <input id="submit" type="submit" value="Get Quote!" style="max-width: 2vw;">
           </form>
+          
           <p class="privacy-para">We will never share your info. <br> Check out our <a href="privacy.html" target="_blank">privacy policy</a> for more.</p>
         </section>
         <section class="human">
