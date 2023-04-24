@@ -70,7 +70,7 @@ grecaptcha.enterprise.ready(function() {
         </section>
         <section id="pics">
           <img alt="A stylish office" src="office.jpg">
-          <section>
+          <section class="offer">
             <h2>Offering free consultations for:</h2>
             <ul>
               <li> Worker's Compensation</li>
@@ -87,10 +87,65 @@ grecaptcha.enterprise.ready(function() {
           <br>
           <h2>Our clients love us!</h2>
           <section class="testimonials">
-            <div></div>
-            <div></div>
-            <div></div>
+            <div class="div2 eachdiv">
+              <div class="userdetails">
+                <div class="imgbox">
+                  <img src="sarah.jpg" alt="Profile pic of our client Sarah">
+                </div>
+                <div class="detbox">
+                  <p class="name">Sarah S.</p>
+                  <p class="designation">Sunnyvale, CA</p>
+                </div>
+              </div>
+              <div class="review">
+                <h4>"Anytime I've needed anything he's been a phone call away"</h4>
+                <p>“Daniel has been my insurance provider for nearly 2 years now and it's been an absolute pleasure working with him. He makes sure you are getting the best coverage for the best deal possible which I appreciate very much. Anytime I've needed anything he's been only a phone call away, very responsive, helpful and kind! I would recommend him to anyone looking for better service and insurance.”</p>
+              </div>
+            </div>
+            <div class="div2 eachdiv">
+              <div class="userdetails">
+                <div class="imgbox">
+                  <img src="jenny.jpg" alt="Profile pic of our client Jenny">
+                </div>
+                <div class="detbox">
+                  <p class="name">Jenny F.</p>
+                  <p class="designation">Yorba Linda, CA</p>
+                </div>
+              </div>
+              <div class="review">
+                <h4>"He was able to save me quite a bit of money!"</h4>
+                <p>“My experience with Daniel has been exceptional every step of the way! He was able to save me quite a bit of money, and the entire process was seamless! Grateful to be able to put my full trust with his agency, especially as a busy working mom!  Thank you Mr. Warren (aka Sensei)!”</p>
+              </div>
+            </div>
+            <div class="div2 eachdiv">
+              <div class="userdetails">
+                <div class="imgbox">
+                  <img src="jeng.jpg" alt="Profile pic of our client Jeng">
+                </div>
+                <div class="detbox">
+                  <p class="name">Jeng H.</p>
+                  <p class="designation">Anaheim, CA</p>
+                </div>
+              </div>
+              <div class="review">
+                <h4>"I was with Nationwide for 17 years and am thrilled to have found Daniel's agency."</h4>
+                <p>“Daniel Warren runs an efficient and professional family business built on trust and industry knowledge. He listens to your needs and concerns and works quickly to address them with a friendly, no-pressure approach. His communication is stellar in email, on the phone, and in person. I was with Nationwide for 17 years and am thrilled to have found Daniel's agency.”</p>
+              </div>
+            </div>
           </section>
+        </section>
+        <h3 style="font-weight: normal; font-size: 20px;">Get your free quote today!</h3>
+        <section id="formsection2">
+          <form class="contact-form" name="contact-form" method="POST" netlify>
+              <label class="italic" for="name">Name:<input type="text" name="name" id="name2" maxlength="40" required></label>
+              <label class="italic" for="email">Email: <input type="email" name="email" id="email2" maxlength="60"></label>
+              <label class="italic" for="phone">Phone: <input type="tel" name="phone" id="phone2" minlength="10" maxlength="10" required></label>
+              <label class="italic" for="interest">Interested In: <input type="text" name="interest" id="interest2" maxlength="100"></label>
+              <label class="italic" for="comments">Comments: <input type="text" name="comments" id="comments2" maxlength="200"></label>
+              <input id="submit2" type="submit" value="Get Quote!" style="max-width: 2vw;">
+          </form>
+          
+          <p class="privacy-para">We will never share your info. <br> Check out our <a href="privacy.html" target="_blank">privacy policy</a> for more.</p>
         </section>
     </main>
     <footer>
