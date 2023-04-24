@@ -16,6 +16,7 @@
 
 html {
     margin: auto;
+    overflow-x: hidden;
 }
 
 body {
@@ -24,6 +25,7 @@ body {
     align-items: center;
     background-image: url(texture.png);
     background-repeat: repeat;
+    overflow-x: hidden;
 }
 
 header, footer {
@@ -245,6 +247,7 @@ a[href^="tel"] {
         display: flex;
         flex-flow: column nowrap;
         gap: 8px;
+        min-width: 100%;
     }
 
     .hidden {
@@ -369,6 +372,29 @@ a[href^="tel"] {
 
     footer {
         margin-top: 24px;
+    }
+
+    li {
+        font-size: 20px;
+        line-height: 30px;
+        list-style-type: disc;
+        margin: 0px 10px;
+    }
+
+    ul {
+        margin-top: 16px;
+    }
+
+    h3 {
+        font-style: italic;
+        font-weight: bold;
+        margin-top: 16px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .privacy-para {
+        font-size: 18px !important;
     }
 
   }
