@@ -314,6 +314,7 @@ ul {
 }
 
 .review p {
+    font-size: 20px !important;
     line-height: 26px !important;
     font-style: italic;
 }
