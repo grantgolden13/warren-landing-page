@@ -330,6 +330,10 @@ ul {
     gap: 12px;
 }
 
+.designation {
+    font-size: 20px !important;
+}
+
 .div2 .review, .div2 .detbox .name, .div2 .detbox .designation {
     color: black;
 }
